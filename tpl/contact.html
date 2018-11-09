@@ -1,0 +1,16 @@
+<div data-controller="contact">
+    <h1>Contact</h1>
+    <div data-target="contact.success" class="alert alert-success d-none">E-Mail sent</div>
+    <form data-target="contact.form">
+        <div class="form-group">
+            <label for="contact-email">Your Email address</label>
+            <input data-target="contact.email" type="email" class="form-control" id="contact-email"
+                   placeholder="name@example.com">
+        </div>
+        <div class="form-group">
+            <label for="contact-message">Your Message</label>
+            <textarea data-target="contact.message" class="form-control" id="contact-message" rows="5"></textarea>
+        </div>
+        <button data-action="contact#send">Send message</button>
+    </form>
+</div>

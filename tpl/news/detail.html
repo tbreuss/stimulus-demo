@@ -1,0 +1,14 @@
+<div data-controller="news-detail">
+    <div data-target="news-detail.loading">
+        <h1>News</h1>
+        <p>Loading</p>
+    </div>
+    <div data-target="news-detail.loaded" class="d-none">
+        <h1>
+            <span data-target="news-detail.title"></span>
+            (<span data-target="news-detail.id"></span>)
+        </h1>
+        <p data-target="news-detail.body"></p>
+        <p><a href="#" data-action="application#loadTemplate" data-template="news/index">Back to overview</a></p>
+    </div>
+</div>
