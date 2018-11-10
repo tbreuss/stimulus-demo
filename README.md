@@ -2,19 +2,23 @@
 
 [Stimulus][stimulus] (by [Basecamp][basecamp]) is a modest JavaScript framework for the HTML you already have.
 
-This demo was made to show Stimulus-based controllers that get connected to and disconnected from elements as they're added or removed from the DOM.
- 
+This demo was made to show Stimulus-based controllers, actions and targets.
+As proof of concept it implements a rough controller which places server-side rendered markup into DOM.
+Think of Stimulus without the need of [Turbolinks][turbolinks].
+As a result this demo feels like a single-page application (SPA) even though it is in fact a multi page application (MPA). 
+
+Hope it's useful!
+
 ## Usage
 
-To run the demo you have to start a webserver at the root of this repository.
+Run the demo by starting a webserver in your project folder.
 
     # Start the built-in PHP server:        
     $ php -S localhost:9999
 
 Then, open <http://localhost:9999> in your browser.
 
-I hope it's useful!
-
 
 [basecamp]: https://basecamp.com/
 [stimulus]: https://github.com/stimulusjs/stimulus
+[turbolinks]: https://github.com/turbolinks/turbolinks

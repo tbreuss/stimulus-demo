@@ -16,7 +16,6 @@ body {
     max-width: 42em;
 }
 
-
 /*
  * Header
  */
@@ -43,10 +42,6 @@ body {
     margin-left: 1rem;
 }
 
-.nav-masthead .active {
-    border-bottom-color: #fff;
-}
-
 @media (min-width: 48em) {
     .masthead-brand {
         float: left;
@@ -54,23 +49,4 @@ body {
     .nav-masthead {
         float: right;
     }
-}
-
-
-/*
- * Cover
- */
-.cover {
-}
-.cover .btn-lg {
-    padding: .75rem 1.25rem;
-    font-weight: 700;
-}
-
-
-/*
- * Footer
- */
-.mastfoot {
-    color: rgba(255, 255, 255, .5);
 }
