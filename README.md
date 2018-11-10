@@ -5,7 +5,7 @@
 This demo was made to show Stimulus-based controllers, actions and targets.
 As a proof of concept it implements a rough controller which places server-side rendered markup into DOM.
 Think of Stimulus without the need of [Turbolinks][turbolinks].
-As a result this demo feels like a single-page application (SPA) even though it is in fact a multi page application (MPA). 
+As a result this demo feels like a single-page application (SPA) even though it is in fact kind of a multi page application (MPA). 
 
 Hope it's useful!
 
