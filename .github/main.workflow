@@ -4,6 +4,6 @@ workflow "Deploy to FTP Server" {
 }
 
 action "SamKirkland/FTP-Deploy-Action" {
-  uses = "https://github.com/SamKirkland/FTP-Deploy-Action"
+  uses = "SamKirkland/FTP-Deploy-Action@master"
   secrets = ["FTP_USERNAME", "FTP_PASSWORD", "FTP_SERVER"]
 }
