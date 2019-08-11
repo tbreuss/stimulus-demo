@@ -17,7 +17,7 @@ Hope it's useful!
 
 ## Usage
 
-Run the demo by starting the webserver of your choice in your project folder.
+Run the demo by starting your favorite webserver in your project folder.
 
     # Start the built-in PHP server
     $ php -S localhost:9999
