@@ -9,6 +9,12 @@ As a result this demo feels like a single-page application (SPA) even though it 
 
 Hope it's useful!
 
+
+## Demo
+
+<https://stimulusjs.demo.tebe.ch>
+
+
 ## Usage
 
 Run the demo by starting a webserver in your project folder.

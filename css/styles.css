@@ -50,3 +50,7 @@ body {
         float: right;
     }
 }
+
+.news-latest-item:hover {
+    cursor:pointer;
+}
